@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: pokeFont;
+    src: url(./assets/pokemon/Pokemon\ Hollow.ttf);
+}
+.card{
+    border: 2px solid rgb(236, 228, 228);
+    border-radius: 10px;
+    max-width: 20rem;
+    height: 20rem;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(202, 185, 185);
+    display: block;
+    background-color: rgba(202, 197, 140, 0.879);
+}
+
+.card .card-name{
+    font-size: 2em;
+    text-align: right;
+    font-family: pokeFont; 
+    letter-spacing: 7px;   
+    margin-top: 200px;
+    display: block;
+    border: 2px solid pink;
+}
+.card .card-image{
+    width: 200px;
+    height: 200px;
+    display: inline;
+     border: 2px solid pink;
+    position: absolute;
+}
+.card .card-heart{
+   
+}
+
+.home{
+
+background-color: rgb(111, 107, 107);
+height: 100vh;
+
+}
+
+.nav{
+    background-color: rgb(48, 46, 46);
+
+}
+
+.nav .nav-brand {
+
+    
+}
+
+
+.Link{
+    color: antiquewhite;
+}
